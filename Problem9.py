@@ -1,5 +1,3 @@
-
-
 from datetime import datetime
 from datetime import timedelta
 def date_diff(from_date, to_date, difference):
@@ -10,6 +8,6 @@ def date_diff(from_date, to_date, difference):
     else:
         return False
     
-print(date_diff('20-01-01', '20-01-02', 2))
-print(date_diff('20-01-01', '20-01-03', 2))
-print(date_diff('20-01-01', '20-01-04', 2))
+print(date_diff('23-01-01', '23-01-02', 2))
+print(date_diff('23-01-01', '23-01-03', 2))
+print(date_diff('23-01-01', '23-01-04', 2))
